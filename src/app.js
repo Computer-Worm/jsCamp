@@ -1,16 +1,11 @@
-console.log("Hello Word")
+let student = {id:1, name:"Yusuf"}
 
-let dolarDun = 18.56
-let doalrBugun = 20.98
-
-console.log(dolarDun)
-
-let konutKredileri = ["Konut Kredisi", "Emlak Konut Kredisi", "Kamu Konut Kredisi"]
-console.log(konutKredileri)
-
-console.log("<ul>")
-for(let i = 0; i<konutKredileri.length; i++)
+function save(puan=10, ogrenci)
 {
-    console.log("<li>"+ konutKredileri[i] + "</li>")
+    console.log(ogrenci.name + " : " + puan)
 }
-console.log("</ul>")
+
+//save(undefined,student);
+
+let student2 = [student, {id:2, name:"Duşti"}, "Van", {city:"Denizli"}]
+//console.log(student2)
